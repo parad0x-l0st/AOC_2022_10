@@ -44,5 +44,5 @@ for panel in panels:
         display += "\n"
     display += "\n\n"
 
-# Part 1 Answer
+# Part 2 Answer
 print(f" Part 2 Answer: \n{display}")
