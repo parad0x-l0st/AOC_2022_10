@@ -20,7 +20,7 @@ class CPU:
 
 
 # Import data
-fname = "/Users/thesingularity/Desktop/AOC_2022/10_data.txt"
+fname = "...10_data.txt"
 with open(fname) as f:
     commands = [(n.split()[0], n.strip().split()[1]) if "add" in n else (n.strip(), None) for n in f.readlines()]
 
